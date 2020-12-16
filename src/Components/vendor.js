@@ -141,7 +141,7 @@ class VendorList extends Component {
                     <span>{vender.title}</span>
                   </div>
 
-                  <div className="minHeight">
+                  <div className="minHeight score">
                     <CircularProgressbar
                       className="circularWidth"
                       value={66}
