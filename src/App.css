@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+  width:100%;
+  padding:30px auto;
+  padding: 30px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 50px;
+  background: #FAFAFA;
+  font-family: 'Dosis', sans-serif;
+}
+h1,h2,h3, h4, h5,h6 {
+  font-family: 'Dosis', sans-serif;
+}
+
+.header {
+  font-family: 'Dosis', sans-serif;
+}
+input#label{
+  margin-top: 5px;
+}
+input{
+  margin-top: 5px;
+}
+label{
+  font-size: 16px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  font-family: 'Dosis', sans-serif;
+}
+
+.ui.mini.modal{
+  width: 50.2% !important;
+  font-family: 'Dosis', sans-serif;
+}
+
+/**** extra****/
+.circularWidth{
+  width: 50px;
+  height: 50px;
+}
+
+.addVendorBtn{
+  border: none;
+    background: transparent;
+  color: #2185d0!important;
+}
+
+
+
+.vendorHeader{
+  background: #EDEDED !important;
+  display: flex;
+    align-items: center;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.main {
+  display: flex;
+  overflow: auto;
+  /* border: 0.5px solid #cecece; */
+  margin-top: 20px;
+  background: #fff;
+}
+
+.form-control {
+  margin-top: 5px !important;
+}
+.add-container  {
+  min-width: 300px;
+  padding-bottom: 40px;
+}
+
+.imageSection {
+  height: 100px;
+  border-right: 0.5px solid #cecece;
+  /* border-bottom: 0.5px solid #cecece; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.minHeight{
+  min-height: 50px;
+  padding-left: 8px;
+  padding-top: 8px;
+  border-right: 0.5px solid #cecece;
+  /* border-bottom: 0.5px solid #cecece; */
+  background: #fff;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.progressBar{
+  width: 40px;
+  height: 40px;
+}
+.extraHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  text-transform: capitalize !important;
+}
+h5 {
+  margin: 0 !important;
+  text-transform: capitalize !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.p-20{
+  padding: 20px;
+}
+
+.newTaskFooter{ margin:20px 0px;float: right; }
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body{ background-color: #F5F5F5; }
+
+.listCard{
+  background-color:#fff;
+  box-shadow: 1px 1px 6px 1px #a3d5d5;
+  border-radius: 5px;
+  min-height: 600px;
+  width: initial;
+  overflow-y: scroll;
+}
+
+.appHeader{
+  display: flex; justify-content: space-between;margin-bottom: 20px;
+}
+
+.noTask{ padding-top: 60px;font-family: 'Open Sans', sans-serif;color: #757575; font-weight: bold; }
+.taskTitle{ align-self: center; }
+.taskTitle h3 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #757575;
+}
+.taskDetail{ color: #303030;font-size:16px;font-family: 'Dosis', sans-serif; font-weight: 600; }
+.assignTo{ color: #303030;font-size:14px;font-family: 'Dosis', sans-serif; font-weight:400; }
+.date{ color: #757575;font-size:14px;font-family: 'Dosis', sans-serif; font-weight:400; }
+.taskList{ padding:15px;text-align:start }
+.taskAssignName{margin:15px 0px 5px 0px}
+.taskListcard{ padding-bottom: 30px!important;  }
+.optionCard{ box-shadow: 1px 1px 6px 1px #a3d5d5;padding:8px 12px; }
+.App-link {
+  color: #61dafb;
+}
+
+.ui.dropdown .menu {
+  left: -74px !important;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
